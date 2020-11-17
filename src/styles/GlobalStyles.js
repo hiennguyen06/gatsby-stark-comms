@@ -50,9 +50,7 @@ export const Container = styled.div`
       max-width: 100%;
     `}
 `
-
 export const Flex = styled.div`
-  position: relative;
   display: flex;
   align-items: center;
   ${props =>

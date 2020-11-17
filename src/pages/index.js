@@ -2,10 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-const IndexPage = () => (
-  <Layout>
-    <h1>hello world</h1>
-  </Layout>
-)
+const IndexPage = () => <Layout></Layout>
 
 export default IndexPage
