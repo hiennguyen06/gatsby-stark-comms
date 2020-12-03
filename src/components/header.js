@@ -9,8 +9,8 @@ import NavLinks from "./navLinks"
 import { Container, Flex } from "../styles/GlobalStyles"
 
 const HeaderNav = styled(motion.div)`
-  height: 100px;
-  background: var(--blue);
+  height: 76px;
+  background: var(--red);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,9 +44,9 @@ const Logo = styled.div`
 const Header = () => {
   return (
     <HeaderNav
-      animate={{ y: 0, opacity: 1 }}
-      initial={{ y: -72, opacity: 0 }}
-      transition={{ duration: 1, ease: [0.6, 0.05, -0.01, 0.9] }}
+    // animate={{ y: 0, opacity: 1 }}
+    // initial={{ y: -72, opacity: 0 }}
+    // transition={{ duration: 1, ease: [0.6, 0.05, -0.01, 0.9] }}
     >
       <Container>
         <Flex spaceBetween withHeight>

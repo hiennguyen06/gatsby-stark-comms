@@ -21,7 +21,10 @@ const Typography = createGlobalStyle`
     }
     p {
         font-weight: 400;
-        line-height: 1.6;
+        line-height: 1.5;
+    }
+    .bold {
+        font-weight: 700;
     }
 `
 export default Typography
